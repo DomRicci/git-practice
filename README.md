@@ -11,7 +11,7 @@
 - git branch -c: Create a new branch 
 - git checkout: Checkout (switch to) a specified branch
 - git branch: displays a list  of branches, with current branch highlighted
-- git checkout -b: To create and switch to a new branch
+- git checkout -b: To create and switch to a new branch (updates HEAD)
 
 ## What's a branch?
 
