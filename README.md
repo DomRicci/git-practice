@@ -8,6 +8,7 @@
 - git commit: Commit changes from the stage to current branch 
 - git config: Set or get cnfigortaion
 - git log: Show history of project commits
+- git checkout: checkout branch (update HEAD and apply changes to working directory)
 
 ## Commit messages 
 Default editor is notepad++ (can be changed)
