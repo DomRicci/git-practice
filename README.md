@@ -7,7 +7,7 @@
 - git add: Add changes from working directory to the stage
 - git commit: Commit changes from the stage to current branch 
 - git config: Set or get cnfigortaion
-- git log: Show history of project commits
+- git log: Show a history aka("log")of project commits
 - git checkout: checkout branch (update HEAD and apply changes to working directory)
 - git merge: merge changes from different branches
 
