@@ -9,7 +9,7 @@
 - git config: Set or get cnfigortaion
 - git log: Show history of project commits
 - git checkout: checkout branch (update HEAD and apply changes to working directory)
-
+- git merge: merge changes from different branches
 ## Commit messages 
 Default editor is notepad++ (can be changed)
 Or use 'git commit -m "<message>"'
