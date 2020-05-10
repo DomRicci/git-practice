@@ -11,10 +11,21 @@
 - git checkout: checkout branch (update HEAD and apply changes to working directory)
 - git merge: merge changes from different branches
 - git branch -c: Create a new branch 
+- git branch: displays a list  of branches, with current branch highlighted
+- git checkout -b: To create and switch to a new branch (updates HEAD)
 
+## What's a branch?
 
+A branch is a ref(erence) to a commit. When HEAD points to a branch we say we are 'on' that branch. When we make
+a commit while we are on a branch, the branch is updated to ref(er) to the new commit.
+
+## What's HEAD?
+
+HEAD is a ref(erence) points to the 'current' commit or branch that I am on. Git commands like: 'log', 'status and
+ 'branch' use head. 'git checkout' updates HEAD to point to a different branch.
+ 
 ## Commit messages 
-
+ 
 Default editor is notepad++ (can be changed)
 Or use 'git commit -m "<message>"'
 
