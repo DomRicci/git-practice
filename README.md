@@ -10,6 +10,8 @@
 - git log: Show a history aka("log")of project commits
 - git checkout: checkout branch (update HEAD and apply changes to working directory)
 - git merge: merge changes from different branches
+- git branch -c: Create a new branch 
+
 
 ## Commit messages 
 
