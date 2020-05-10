@@ -9,10 +9,18 @@
 - git config: Set or get cnfigortaion
 - git log: Show a history aka("log")of project commits
 - git checkout: checkout branch (update HEAD and apply changes to working directory)
-- git merge: merge changes from different branches
-- git branch -c: Create a new branch 
-- git branch: displays a list  of branches, with current branch highlighted
 - git checkout -b: To create and switch to a new branch (updates HEAD)
+- git branch: displays a list  of branches, with current branch highlighted
+- git branch -c: Create a new branch 
+- git merge: merge changes from different branches
+- git merge --abort: Abort a merge in progress
+- git log branch1..branch2: log of all commits in branch2 that don't exist in branch1
+- git log branch1...branch2: Log of all commits in either but not both
+- git nerge --no-commit -no-ff: Attempt to merge but don't automerge or ff merge
+- git branch --no-merged branch1: list branches with unmerged conflicts
+- git branch --merged branch1: List branches rhat have no unmerged conflicts
+
+
 
 ## What's a branch?
 
@@ -28,6 +36,9 @@ HEAD is a ref(erence) points to the 'current' commit or branch that I am on. Git
  
 Default editor is notepad++ (can be changed)
 Or use 'git commit -m "<message>"'
+- First line should be clear, accurate and concise
+- Use proper spelling, punctuation and grammar
+- Don't end in fullstop ' . '
 
 ## Merging
 
@@ -35,6 +46,11 @@ Merging means to bring the changes from one branch to another.
 - A fast forward merge happpens when the target branch was branched from the current one, and no more recent commits have happened to the current branch.
 - An Automatic merge happens when the two histories have divered, but git is able to reconcile them into a single commit, on the current branch.
 
-- First line should be clear, accurate and concise
-- Use proper spelling, punctuation and grammar
-- Don't end in fullstop ' . '
+## Resolving a merge conflict 
+
+1. Don't panic!
+2. Edit files to resolve conflict
+3. Add and commit changes (use commands above)
+
+
+
