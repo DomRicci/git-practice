@@ -19,7 +19,7 @@
 - git nerge --no-commit -no-ff: Attempt to merge but don't automerge or ff merge
 - git branch --no-merged branch1: list branches with unmerged conflicts
 - git branch --merged branch1: List branches rhat have no unmerged conflicts
-
+- git diff branch2: Shows differences between commit in current branch and specified branch.
 
 
 ## What's a branch?
