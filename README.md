@@ -16,6 +16,7 @@
 - git merge --abort: Abort a merge in progress
 - git log branch1..branch2: log of all commits in branch2 that don't exist in branch1
 - git log branch1...branch2: Log of all commits in either but not both
+- git show: Show a single commit
 - git merge --no-commit -no-ff: Attempt to merge but don't automerge or ff merge
 - git branch --no-merged branch1: list branches with unmerged conflicts
 - git branch --merged branch1: List branches rhat have no unmerged conflicts
