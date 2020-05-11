@@ -7,7 +7,8 @@
 - git add: Add changes from working directory to the stage
 - git commit: Commit changes from the stage to current branch 
 - git config: Set or get cnfigortaion
-- git log: Show a history aka("log")of project commits
+- git log: Show a history aka("log")of project commits. Has lots of arguements, can take '--author <string>' and '--since' or '--until'. 
+	some other useful aaguements are '--oneline' and '--graph'
 - git checkout: checkout branch (update HEAD and apply changes to working directory)
 - git checkout -b: To create and switch to a new branch (updates HEAD)
 - git branch: displays a list  of branches, with current branch highlighted
@@ -20,7 +21,7 @@
 - git merge --no-commit -no-ff: Attempt to merge but don't automerge or ff merge
 - git branch --no-merged branch1: list branches with unmerged conflicts
 - git branch --merged branch1: List branches rhat have no unmerged conflicts
-- git diff branch2: Shows differences between commit in current branch and specified branch.
+- git diff: Can take multiple arguements, can show various details comparing two commits. Use 'git help diff' to get more information
 
 
 ## What's a branch?
