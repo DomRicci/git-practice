@@ -22,7 +22,9 @@
 - git branch --no-merged branch1: list branches with unmerged conflicts
 - git branch --merged branch1: List branches rhat have no unmerged conflicts
 - git diff: Can take multiple arguements, can show various details comparing two commits. Use 'git help diff' to get more information
-
+- git remote add <remote> <url>: Add a new remote repository
+- git remote -v: List remote repositories and their respective urls
+- git push -u <remote> <branch>: Push <branch> to <remote>, and set default upstream for <branch>
 
 ## What's a branch?
 
