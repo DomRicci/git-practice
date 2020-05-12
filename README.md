@@ -25,7 +25,7 @@
 - git remote add <remote> <url>: Add a new remote repository
 - git remote -v: List remote repositories and their respective urls
 - git push -u <remote> <branch>: Push <branch> to <remote>, and set default upstream for <branch>
-
+- git fetch: Fetch changes from the remote repository 
 ## What's a branch?
 
 A branch is a ref(erence) to a commit. When HEAD points to a branch we say we are 'on' that branch. When we make
